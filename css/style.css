@@ -5,8 +5,10 @@ body {
   color: #ffffff;
   margin: 0;
   padding: 0;
+  position: relative;
 }
 
+/* Container Styles */
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -73,7 +75,7 @@ footer a:hover {
 
 .credit-footer {
   position: absolute;
-  bottom: 10px;
+  bottom: 30px; /* Ensure it's above the feedback button */
   width: 100%;
   text-align: center;
   font-size: 14px;
@@ -92,7 +94,7 @@ footer a:hover {
 /* Feedback Button Styles */
 .feedback-btn {
   position: fixed;
-  bottom: 30px; /* Positioned slightly above the bottom */
+  bottom: 90px; /* Adjusted the position to avoid overlapping with credit */
   left: 50%; /* Horizontally center the button */
   transform: translateX(-50%); /* Precisely center it */
   background-color: #00bcd4;
@@ -115,7 +117,7 @@ footer a:hover {
 .feedback-form {
   display: none;
   position: fixed;
-  bottom: 70px; /* Positioned above the feedback button */
+  bottom: 140px; /* Adjusted to sit above the feedback button */
   left: 50%;
   transform: translateX(-50%);
   background-color: rgba(0, 0, 0, 0.8);
