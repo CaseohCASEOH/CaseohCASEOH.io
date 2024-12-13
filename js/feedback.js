@@ -37,7 +37,7 @@ submitFeedbackBtn.addEventListener('click', async () => {
 
 // Function to send feedback to Discord webhook
 async function sendFeedbackToDiscord(feedback) {
-  const webhookURL = 'YOUR_DISCORD_WEBHOOK_URL'; // Replace with your webhook URL
+  const webhookURL = 'https://discord.com/api/webhooks/1317075083553935411/w44o2275bOO-d23V5wbXSyfFoKqRJzDhM6XaKPNHZwn96l3isUl27Vv-gLjBbVQILpJD'; // Replace with your webhook URL
 
   const embed = {
     title: 'New Feedback Received',
