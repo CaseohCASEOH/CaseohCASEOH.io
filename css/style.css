@@ -10,9 +10,10 @@ body {
   background: linear-gradient(135deg, #2e3b4e, #35424a);
   color: white;
   display: flex;
-  justify-content: center;
+  flex-direction: column; /* Allows stacking of elements vertically */
+  justify-content: space-between; /* Pushes footer to the bottom */
   align-items: center;
-  height: 100vh;
+  height: 100vh; /* Full height of the viewport */
   text-align: center;
   overflow: hidden;
   padding: 20px;
@@ -95,6 +96,10 @@ footer a:hover {
   font-size: 1rem;
   color: #bbb;
   margin-top: 40px;
+  padding: 20px 0;
+  background: rgba(0, 0, 0, 0.1);
+  position: relative;
+  bottom: 0;
 }
 
 .credit-footer a {
