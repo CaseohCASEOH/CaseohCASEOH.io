@@ -1,0 +1,7 @@
+{
+  "routes": [
+    { "src": "/upload", "dest": "/upload.html" },
+    { "src": "/profile", "dest": "/profile.html" },
+    { "src": "/admin", "dest": "/admin.html" }
+  ]
+}
