@@ -92,8 +92,9 @@ footer a:hover {
 /* Feedback Button Styles */
 .feedback-btn {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 30px; /* Positioned slightly above the bottom */
+  left: 50%; /* Horizontally center the button */
+  transform: translateX(-50%); /* Precisely center it */
   background-color: #00bcd4;
   color: white;
   border: none;
@@ -114,8 +115,9 @@ footer a:hover {
 .feedback-form {
   display: none;
   position: fixed;
-  bottom: 70px;
-  right: 20px;
+  bottom: 70px; /* Positioned above the feedback button */
+  left: 50%;
+  transform: translateX(-50%);
   background-color: rgba(0, 0, 0, 0.8);
   color: white;
   padding: 20px;
